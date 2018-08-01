@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/signupform.jpg);
+    background-size:cover;
+}
+
+label{
+    font-size: 20px;
+    font-family:sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    color: aqua;
+}
+
+.submitButton{
+    text-align: center;
+    margin-left: 50px;
+    height: 30px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 12px;
+    font-family: "Times New Roman";
+    text-shadow: 5px 5px 10px yellow;
+    font-size: 50px;
+}
+
+p1.radioType{
+    font-size: 18px;
+    font-weight: bold;
+    color: chartreuse;
+}
