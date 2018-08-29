@@ -6,11 +6,12 @@
 	</head>
 	
 	<body>
+		<script type="text/javascript" src="../js/formvalidation.js"></script>
 		<header>
 			<h1>SIGN UP FOR TASTY FOOD</h1>
 		</header>
 
-		<form>
+		<form name="mysignupform">
 			<label>First Name: </label>
 			<input name="first_name" type="text">
 			<br><br>
@@ -64,7 +65,7 @@
 			<input name="capcha" type="checkbox">
 			<br><br>
 
-			<button class="submitButton" type="submit" name="submitButton">Submit Details</button>
+			<button class="submitButton" type="submit" name="submitButton" onclick="validateform()">Submit Details</button>
 			<br><br>
 		</form>	
 	</body>
